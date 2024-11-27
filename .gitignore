@@ -1,0 +1,54 @@
+# User-specific files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Build directories
+build/
+DerivedData/
+
+# Swift Package Manager
+/.build/
+Package.resolved
+
+# Xcode files
+.xcuserdata/
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcworkspace/
+
+# Swift build artifacts
+.swiftpm/
+.build/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace/
+
+# SwiftPM Cache
+.swiftpm/xcode/xcdebugger
+
